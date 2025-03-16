@@ -11,5 +11,9 @@ test('capitalize function should capitalize the first letter of a string', () =>
   expect(capitalize('jAVAscript')).toBe('Javascript');
   expect(capitalize('')).toBe('');
   expect(capitalize('a')).toBe('A');
-}
-);
+});
+
+test('reverse string function should return the reversed string', () => {
+  expect(reverseString('hello')).toBe('olleh');
+  expect(reverseString('world')).toBe('dlrow');
+});
